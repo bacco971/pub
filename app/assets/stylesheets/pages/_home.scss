@@ -1,1 +1,499 @@
+/* -------------------------------------
+ * CSS code specific to home page
+ * (margin/padding adjustments)
+ .
+ *
+  ------------------------------------- */
+
+
+.home-body {
+  height: 100vh;
+}
+h3, .h3 {
+    font-size: 18px;
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: $blue;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bannerindex {
+  color: white;
+  text-align: center;
+  height: 400px;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.banner h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 40px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+h2, .h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.product {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+  transition: all 0.15s ease;
+}
+
+#first {
+  margin-top: 50px;
+}
+
+/* Body design */
+.product-body {
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  h1 {
+  font-weight: bolder;
+  font-size: 26px;
+  margin-top: 0;
+  }
+  h3 {
+  font-weight: lighter;
+  color: $gray;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 18px;
+  }
+}
+
+
+
+/* Product image */
+.product-image {
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 175px;
+}
+
+/* Controls design */
+.product-controls {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+.product-controls a {
+  padding: 0 20px;
+  font-size: 17px;
+  color: white;
+}
+.product-controls a:hover {
+  color: #D3473C !important
+}
+.product-controls-hidden a {
+  color: transparent;
+  font-size: 15px;
+  transition: all 0.15s ease;
+  border-color: transparent;
+}
+
+/* Hover effects */
+a:hover {
+  text-decoration: none;
+}
+.product:hover {
+  background: #e3e3e5;
+  cursor: pointer;
+}
+
+// .product:hover .product-upvote { transform: scale(1.2) }
+.product:hover .product-controls-hidden a { color: #E6E6E6 }
+.product-upvote:hover .product-arrow { border-bottom: 9px solid #5898f1 }
+
+
+.vdo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.gif {
+  position: absolute;
+}
+
+.msg-yvon {
+  margin-top: 80px;
+}
+
+.owners {
+  padding: 15px 0 45px 0;
+  background-color: #E3E3E5;
+}
+
+.owners-content {
+  margin-bottom: 30px;
+  h1 {
+    margin-top: 12.5px;
+  }
+  h3 {
+    color: #292c3c;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
+
+/* -------------------------------------
+ * CSS code specific to home page
+ * (margin/padding adjustments)
+ * ------------------------------------- */
+/* -------------------------------------
+ * CSS code specific to home page
+ * (margin/padding adjustments)
+ * ------------------------------------- */
+
+.wrapper {
+  background: #F3F5F5;
+  height: 500px;
+
+}
+
+.wrapper2 {
+  background: white;
+  h4 {
+    font-size: 30px;
+    color: $blue;
+     margin: 123px 54px -189px;
+  }
+}
+
+.wrapper3 {
+  background: #1A356E;
+  h4 {
+    font-size: 30px;
+    color: white;
+    margin: 50px 47px -78px;
+  }
+}
+
+
+.colorwhite {
+
+  color: white;
+}
+.form-control {
+  color: black;
+}
+
+.banner {
+  h1 {
+    padding-top: 1em;
+  };
+  h3 {
+    padding: 1em 0 2em 0;
+  }
+}
+
+.mostpopular {
+
+  h2 {
+    padding-bottom: 1.5em;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+#see-bets-btn {
+  margin-top: 50px;
+}
+
+.process h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 72px;
+    margin-top: 33px;
+    font-size: 25px;
+  h3 {
+    font-size: 18px;
+    color: gray;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+}
+.avatarhome {
+  width: 100px;
+}
+
+
+
+
+.avatarhomeraddius{
+  width: 100px;
+  border-radius: 50px;
+}
+
+.avatarhome:hover {
+  opacity: 3px;
+}
+
+.circle1 {
+  display: inline-block;
+  width: 34px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: $blue;
+  color: white;
+  // font-family: $special-font;
+  line-height: 1.4;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 87px;
+}
+
+.circle2 {
+  display: inline-block;
+  width: 34px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: $blue;
+  color: white;
+  // font-family: $special-font;
+  line-height: 1.4;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 87px;
+}
+.circle3 {
+  display: inline-block;
+  width: 34px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: $blue;
+  color: white;
+  // font-family: $special-font;
+  line-height: 1.4;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 49px;
+}
+.circle4 {
+  display: inline-block;
+  width: 34px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: $blue;
+  color: white;
+  // font-family: $special-font;
+  line-height: 1.4;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 68px;
+}
+
+
+  .card {
+    height: 384px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    background-size: cover !important;
+    color: white;
+    position: relative;
+    width: 671px;
+}
+
+.cardchoice {
+    height: 384px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    background-size: cover !important;
+    color: white;
+    position: relative;
+    margin-left: -30px;
+
+}
+
+.cardchoice:hover {
+  opacity: 0.8;
+  }
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+  color: white;
+}
+.card-description p {
+  font-size: 13px;
+  }
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover{
+  opacity: 0.1;
+}
+
+.banner-button {
+  margin-left: 10px;
+  padding: 0 10px;
+  border-radius: 3%;
+  line-height: 38px;
+  background-color: #D23333;
+  color: white;
+  font-size: 14px;
+  border: 2px solid #D23333;
+  margin-top: 5px;
+}
+
+.carchoice {
+
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.carchoice1 {
+  width: 540px;
+}
+
+.card {
+  height: 350px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  width: 530px;
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 30px;
+  margin: 40px;
+}
+.card-description p {
+  font-size: 13px;
+  }
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover{
+  opacity: 0.1;
+}
+
+.cardleft1 p {
+
+    margin: 100px 50px 16px;
+    color: white;
+}
+
+.cardright1 p {
+    margin: 200px 50px;
+    color: #20356A;
+}
+
+.newStep {
+    display: inline-block;
+    width: 620px;
+    height: 380px;
+    background: url('/assets/merco.png');
+}
+
+.newStep:hover {
+    background: url('/assets/new_step_highlighted.png');
+      opacity: 0.8;
+}
+
+.titre {
+font-size: 20px;
+padding: 20px;
+}
+
+
+
+/* -------------------------------------
+ * CSS code specific to home page
+ * (margin/padding adjustments)
+ * ------------------------------------- */
 // Specific CSS for your home-page
