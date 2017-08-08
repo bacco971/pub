@@ -232,6 +232,7 @@ a:hover {
   margin-top: 50px;
 }
 
+
 .process h2 {
     color: black;
     font-family: 'Saira', sans-serif;
@@ -593,7 +594,7 @@ font-family: 'Saira', sans-serif;
 }
 
 .footer {
-  background: #D0D0D0;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -622,6 +623,12 @@ font-family: 'Saira', sans-serif;
 .padded {
   margin-top: 50px;
   margin-bottom: 50px;
+  }
+
+  .padded2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: black;
   }
 /* -------------------------------------
  * CSS code specific to home page
